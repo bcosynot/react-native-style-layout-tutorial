@@ -1,1 +1,20 @@
-{}
+{
+    "gc_age_seconds": 43200,
+    "gc_interval_seconds": 86400,
+    "ignore_dirs": [
+        "build"
+    ],
+    "illegal_fstypes": [
+        "nfs",
+        "cifs",
+        "smb"
+    ],
+    "illegal_fstypes_advice": "use a local directory",
+    "root_files": [
+        ".watchmanconfig"
+    ],
+    "root_restrict_files": [
+        ".git",
+        ".hg"
+    ]
+}
