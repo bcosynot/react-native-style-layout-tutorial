@@ -16,7 +16,7 @@ export default class expertgroup extends Component {
   render() {
     return (
       <View style={{backgroundColor: '#ff0000'}}>
-        <Text style={{color: '#fff'}}>
+        <Text style={{color: '#fff', fontWeight: 'bold'}}>
           Hello World!
         </Text>
       </View>
